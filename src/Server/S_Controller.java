@@ -10,11 +10,29 @@ public class S_Controller {
         this.model = model;
         this.view = view;
 
-        JFrame frame = new JFrame("S_View");
+        JFrame frame = new JFrame("Server");
         frame.setContentPane(view.getViewPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setSize(600, 400);
         frame.setVisible(true);
 
+    }
+
+    public S_Model getModel() {
+        return model;
+    }
+
+    public void setModel(S_Model model) {
+        this.model = model;
+
+    }
+
+    public S_View getView() {
+        return view;
+    }
+
+    public void setView(S_View view) {
+        this.view = view;
     }
 }
