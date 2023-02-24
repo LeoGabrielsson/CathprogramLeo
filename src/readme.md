@@ -25,4 +25,8 @@ Servern kan nu ta fram sin view, även om den för tillfället är lite fel.
 
 ### 2023-02-23
 Antingen har min hjärna smält eller så har den bytts ut mot en guldfisks
-för jag har HELT glömt vad jag har åstadkommit denna lektion
+för jag har HELT glömt vad jag har åstadkommit denna lektion.
+
+### 2023-02-24
+Servern kan fortfarande inte kopplas med klienten.
+Lektionen var dock trevlig upplever jag👍
