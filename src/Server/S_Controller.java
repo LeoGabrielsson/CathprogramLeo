@@ -17,7 +17,10 @@ public class S_Controller {
         frame.setSize(600, 400);
         frame.setVisible(true);
 
+        model.getClient();
+        model.getStream();
     }
+
 
     public S_Model getModel() {
         return model;
@@ -25,7 +28,6 @@ public class S_Controller {
 
     public void setModel(S_Model model) {
         this.model = model;
-
     }
 
     public S_View getView() {

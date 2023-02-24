@@ -17,7 +17,7 @@ public class C_Controller {
         frame.setSize(600, 400);
         frame.setVisible(true);
 
-
+        model.getStream();
     }
 
     public C_Model getModel() {
