@@ -30,3 +30,8 @@ för jag har HELT glömt vad jag har åstadkommit denna lektion.
 ### 2023-02-24
 Servern kan fortfarande inte kopplas med klienten.
 Lektionen var dock trevlig upplever jag👍
+
+### 2023-03-02
+Client kan nu kopplas till servern.
+Påbörjade arbete på action listeners för
+knappar i clienten.
