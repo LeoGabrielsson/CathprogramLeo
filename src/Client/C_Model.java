@@ -13,15 +13,15 @@ public class C_Model {
     PrintWriter out;
     BufferedReader in;
 
-    public C_Model() {
+    public C_Model(int port) {
         try {
-            String ip = "10.70.45.159";
+            String ip = "10.80.46.42";
             //String ip = JOptionPane.showInputDialog("What IP do you want to connect to?");
-            int port = Integer.parseInt(JOptionPane.showInputDialog("What port do you wish to connect to?"));
             socket = new Socket(ip, port);
         } catch (IOException e) {
             System.err.println("Failed to connect to server");
             e.printStackTrace();
+            System.exit(13);
         }
         System.out.println("Connection ready...");
     }

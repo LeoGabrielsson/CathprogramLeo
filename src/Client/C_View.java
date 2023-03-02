@@ -13,7 +13,9 @@ public class C_View {
 
     }
 
-    public JPanel getViewPanel() {return viewPanel;}
+    public JPanel getViewPanel() {
+        return viewPanel;
+    }
 
     public JButton getSendButton() {
         return sendButton;
@@ -30,4 +32,6 @@ public class C_View {
     public JButton getLogOutButton() {
         return logOutButton;
     }
+
+    //public void addActionListener{};
 }
