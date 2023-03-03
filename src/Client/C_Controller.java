@@ -19,6 +19,7 @@ public class C_Controller {
 
 
         model.getStream();
+        model.sendMsg(); // get text
     }
 
     public C_Model getModel() {
@@ -36,4 +37,5 @@ public class C_Controller {
     public void setView(C_View view) {
         this.view = view;
     }
+
 }

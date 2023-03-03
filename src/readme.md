@@ -6,7 +6,7 @@ Använda GUI för att skicka och ta emot meddelanden.
 Programmen ska hantera skicka och ta emot simultant (samtidigt) med hjälp av trådar.
 
 ##Slutplan
-Eventuellt kunna spela schack
+Eventuellt kunna spela tre i rad
 
 ## Loggbok
 ###2023-02-09
@@ -35,3 +35,8 @@ Lektionen var dock trevlig upplever jag👍
 Client kan nu kopplas till servern.
 Påbörjade arbete på action listeners för
 knappar i clienten.
+
+### 2023-03-03
+ActionListener fungerade inte. Försökte använda en skanner
+, har nu lärt mig att det inte fungerar.
+Jag tänker fortsätta med detta program som slutprojekt.

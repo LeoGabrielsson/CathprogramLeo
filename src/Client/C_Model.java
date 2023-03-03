@@ -1,11 +1,11 @@
 package Client;
 
-import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class C_Model {
     Socket socket;
@@ -35,5 +35,16 @@ public class C_Model {
             e.printStackTrace();
         }
         System.out.println("Streams ready...");
+    }
+
+    public void sendMsg() {
+        Scanner tgb = new Scanner(System.in);
+        System.out.println("chatting...");
+        String msg = "";
+        while (!msg.equals("QUIT")) {
+            msg = tgb.nextLine();
+            out.println("CLIENT: " + msg);
+            System.out.println(msg);
+        }
     }
 }

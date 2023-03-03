@@ -5,7 +5,7 @@ import javax.swing.*;
 public class C_View {
     private JButton sendButton;
     private JEditorPane chatFieldEditorPane;
-    private JFormattedTextField enterMessageFormattedTextField;
+    private JFormattedTextField enterMessageField;
     private JButton logOutButton;
     private JPanel viewPanel;
 
@@ -26,12 +26,10 @@ public class C_View {
     }
 
     public JFormattedTextField getMsgField() {
-        return enterMessageFormattedTextField;
+        return enterMessageField;
     }
 
     public JButton getLogOutButton() {
         return logOutButton;
     }
-
-    //public void addActionListener{};
 }
